@@ -5,7 +5,6 @@
     --color-blue: #2a3190;
     --color-blue-active: #000654;
     --transition: 0.2s;
-    --gallery-gap: calc(var(--index) * 7.5);
 }
 
 body {
