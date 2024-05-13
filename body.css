@@ -1,26 +1,8 @@
-
-header {
-    margin-bottom: 6vh;
-}
-
-.header__logo {
-    max-width: min-content;
-}
-
-.header__one {
-    display: inline-block;
-    white-space: nowrap;
-    margin-bottom: 0.5vh;
-}
-
-.header__title-text-container {
-    display: flex;
-    justify-content: space-between;
-}
-
 .works__list {
     margin: 0 auto;
     width: min-content;
+    list-style-type: none;
+    padding: 0;
 }
 
 .works__list-item {

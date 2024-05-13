@@ -1,0 +1,35 @@
+body {
+    background-color: gray;
+    color: black;
+    font-size: 20px;
+}
+
+table {
+    margin: 0 auto;
+    margin-bottom: 10vh;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    margin: 0;
+    padding: 0.4vh 1vw;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: #cdc6c3;
+}
+
+.per_100 {
+    font-size: 100%;
+}
+
+.per_150 {
+    font-size: 150%;
+}
+
+.per_200 {
+    font-size: 200%;
+}

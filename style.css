@@ -37,3 +37,50 @@ body::-webkit-scrollbar-track {
     width: 80%;
     margin: 5vh auto;
 }
+
+header {
+    margin-bottom: 6vh;
+}
+
+.header__logo {
+    max-width: min-content;
+}
+
+.header__one {
+    display: inline-block;
+    white-space: nowrap;
+    margin-bottom: 0.5vh;
+}
+
+.header__title-text-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    margin: 0 auto;
+    width: inherit;
+}
+
+.button {
+    border: 0;
+    border-radius: 8px;
+    padding: calc(var(--index) * 0.6) calc(var(--index) * 1);
+    font-size: calc(var(--index) * 0.9);
+    background-color: var(--color-header);
+    color: var(--color-blue);
+    transition: var(--transition);
+    margin-bottom: calc(var(--index) * 1.2);
+}
+
+.button:hover {
+    background-color: var(--color-blue);
+    color: var(--color-header);
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: var(--color-blue-active);
+    color: var(--color-header);
+    cursor: pointer;
+}
