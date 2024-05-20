@@ -71,6 +71,7 @@ header {
     color: var(--color-blue);
     transition: var(--transition);
     margin-bottom: calc(var(--index) * 1.2);
+    max-width: calc(var(--index) * 20);
 }
 
 .button:hover {
