@@ -8,7 +8,6 @@ function sizeEvent(event) {
             let flag = false
             for (const classNameTextElement of text.classList) {
                 if (classNameTextElement.startsWith("per_")) {
-                    console.log(1)
                     text.classList.replace(classNameTextElement, classNameElement)
                     flag = true
                 }
