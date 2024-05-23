@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Лаба 5</title>
+
+    <link rel="stylesheet" href="../../normalize.css">
+    <link rel="stylesheet" href="../../fonts/fonts.css">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="lab_5.css">
+</head>
+<body>
+<div class="body-container">
+    <header>
+        <div class="header__logo">
+            <h1 class="header__one">
+                Лабораторная работа №5
+            </h1>
+            <div class="header__title-text-container">
+                <p>Савицкого А.А.</p>
+                <p>ИЭз-60-21</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <form class="form" id="form">
+            <div class="text-container">
+                <label for="text_size">Размер текста:
+                    <input type="number" id="text_size" name="text_size" required min="1" />
+
+                    <select name="text_measure" id="text_measure">
+                        <option value="px">px</option>
+                        <option value="%">%</option>
+                        <option value="em">em</option>
+                        <option value="rem">rem</option>
+                    </select>
+                </label>
+
+            </div>
+
+            <div class="color-container">
+                <label for="text_color">Цвет текста:
+                    <input type="color" id="text_color" name="text_color" required value="#333"/>
+                </label>
+
+                <label for="back_color">Цвет фона:
+                    <input type="color" id="back_color" name="back_color" required value="#bfbfbf"/>
+                </label>
+            </div>
+
+            <button class="button submit-button" type="submit">Изменить</button>
+        </form>
+    </main>
+</div>
+
+<script src="js/form.js"></script>
+</body>
+</html>

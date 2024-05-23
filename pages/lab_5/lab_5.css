@@ -1,0 +1,26 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 40vw;
+}
+
+.text-container,
+.color-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+label:first-child {
+    display: block;
+    margin-bottom: 3vh;
+}
+
+input:not(:first-child) {
+    margin-bottom: 3vh;
+}
+
+.submit-button {
+    margin: 0 auto;
+
+}
