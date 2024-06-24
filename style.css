@@ -42,6 +42,15 @@ header {
     margin-bottom: 6vh;
 }
 
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback-link {
+
+}
+
 .header__logo {
     max-width: min-content;
 }

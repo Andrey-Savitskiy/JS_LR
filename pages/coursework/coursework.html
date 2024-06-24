@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма обратной связи</title>
+
+    <link rel="stylesheet" href="../../normalize.css">
+    <link rel="stylesheet" href="../../fonts/fonts.css">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="coursework.css">
+</head>
+<body>
+<div class="body-container">
+    <header>
+        <div class="header__logo">
+            <h1 class="header__one">
+                Курсовая работа
+            </h1>
+            <div class="header__title-text-container">
+                <p>Савицкого А.А.</p>
+                <p>ИЭз-60-21</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="main" id="main">
+        <h3 id="form-container" class="contacts-header-three">Форма обратной связи</h3>
+
+        <div style="position: relative; max-width: 300px; max-height: 350px;">
+            <form id="form" class="topBefore form">
+                <div class="form-group">
+                    <label for="name">Ваше имя <span class="required">*</span></label>
+                    <input id="name" name="name" class="name" type="text" placeholder="Ваше имя" required maxlength="32" autocomplete="off">
+                </div>
+                <div class="form-group">
+                    <label for="tel">Телефон <span class="required">*</span></label>
+                    <input id="tel" name="tel" class="tel" type="tel" placeholder="Телефон" required maxlength="18" autocomplete="off">
+                </div>
+                <div class="form-group">
+                    <label for="message">Ваше сообщение</label>
+                    <textarea id="message" class="message" name="message" placeholder="Ваше сообщение" maxlength="512" autocomplete="off"></textarea>
+                </div>
+                <input id="submit" class="submit" type="submit" value="Отправить">
+            </form>
+
+        </div>
+    </main>
+</div>
+
+<script src="js/form.js"></script>
+</body>
+</html>
